@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------ ICONS ------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+    <!------ CSS ------>
+    <link rel="stylesheet" href="ASSETS/CSS/style-login.css">
+
+    <title>Login form</title>
+</head>
+<body>
+   <div class="login">
+      <img src="ASSETS/MEDIA/bg-login.png" alt="image" class="login_bg">
+
+      <form action="" class="login_form">
+         <h1 class="login_title">Sign UP</h1>
+
+         <div class="login_inputs">
+            <div class="login_box">
+               <input type="name" placeholder="Enter Full Name" required class="login_input">
+               <i class="ri-user-3-fill"></i>
+            </div>
+
+            <div class="login_box">
+                <input type="tel" placeholder="Enter Phone Number" required class="login_input">
+                <i class="ri-phone-fill"></i>
+             </div>
+
+             <div class="login_box">
+                <input type="email" placeholder="Email ID" required class="login_input">
+                <i class="ri-mail-fill"></i>
+             </div>
+
+            <div class="login_box">
+                <input type="password" placeholder="Password" required class="login_input" id="input-pass">
+                <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+            </div>
+
+            <div class="login_box">
+                <input type="password" placeholder="Password" required class="login_input" id="input-pass">
+                <i class="ri-eye-off-line login__eye" id="input-icon"></i>
+             </div>
+
+             <span class="gender_title">Gender</span>
+             <div class="gender_category">
+                <input type="radio" id="gender" name="Gender" value="MALE">
+                <label for="gender">MALE</label>
+                <input type="radio" id="gender" name="Gender" value="FEMAL">
+                <label for="gender">FEMALE</label>
+             </div>
+
+             <button type="submit" class="login_button">Submi</button>
+         </div>
+      </form>
+   </div>
+
+        <!------ MAIN JS ------>
+    <script src="ASSETS/JS/login.js"></script>
+
+</body>
+</html>
+
